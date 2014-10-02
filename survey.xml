@@ -1,0 +1,13 @@
+<manifest>
+	<remote fetch="git://git.drupal.org" name="drupal"/>
+	<remote fetch="git://github.com/surveyTW" name="github"/>
+
+	<default remote="github" revision="master" sync-j="4"/>
+
+	<project remote="drupal" revision="7.x" name="project/drupal" path="."/>
+
+	<project name="themes-survey" path="sites/all/themes/survey"/>
+
+	<project name="modules-surveydate" path="sites/all/modules/surveydate"/>
+</manifest>
+
