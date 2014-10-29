@@ -1,6 +1,6 @@
 <manifest>
 	<remote fetch="git://git.drupal.org" name="drupal"/>
-	<remote fetch="git://github.com/surveyTW" name="github"/>
+	<remote fetch="https://github.com/surveyTW" name="github"/>
 
 	<default remote="github" revision="master" sync-j="4"/>
 
