@@ -1,13 +1,19 @@
 <manifest>
 	<remote fetch="git://git.drupal.org" name="drupal"/>
 	<remote fetch="https://github.com/surveyTW" name="github"/>
+	<remote fetch="https://github.com/facebook" name="facebook"/>
 
 	<default remote="github" revision="master" sync-j="4"/>
 
 	<project remote="drupal" revision="7.x" name="project/drupal" path="."/>
 
+	<!-- 3rd-party lib -->
+	<project remote="facebook" name="facebook-php-sdk" path="sites/all/libraries/facebook-php-sdk"/>
+
+	<!-- themes -->
 	<project name="themes-survey" path="sites/all/themes/survey"/>
 
+	<!-- modules -->
 	<project name="modules-surveydate" path="sites/all/modules/surveydate"/>
 </manifest>
 
