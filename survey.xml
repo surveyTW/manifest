@@ -2,6 +2,7 @@
 	<remote fetch="git://git.drupal.org" name="drupal"/>
 	<remote fetch="https://github.com/surveyTW" name="github"/>
 	<remote fetch="https://github.com/facebook" name="facebook"/>
+	<remote fetch="https://github.com/PHPMailer" name="phpmailer"/>
 
 	<default remote="github" revision="master" sync-j="4"/>
 
@@ -9,6 +10,7 @@
 
 	<!-- 3rd-party lib -->
 	<project remote="facebook" name="facebook-php-sdk" path="sites/all/libraries/facebook-php-sdk"/>
+	<project remote="phpmailer" name="PHPMailer" path="sites/all/libraries/PHPMailer"/>
 
 	<!-- themes -->
 	<project name="themes-survey" path="sites/all/themes/survey"/>
