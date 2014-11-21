@@ -10,7 +10,7 @@
 
 	<!-- 3rd-party lib -->
 	<project remote="facebook" name="facebook-php-sdk" path="sites/all/libraries/facebook-php-sdk"/>
-	<project remote="phpmailer" name="PHPMailer" path="sites/all/libraries/PHPMailer"/>
+	<project remote="phpmailer" name="PHPMailer" path="sites/all/libraries/phpmailer"/>
 
 	<!-- themes -->
 	<project name="themes-survey" path="sites/all/themes/survey"/>
