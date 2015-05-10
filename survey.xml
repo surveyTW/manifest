@@ -13,9 +13,9 @@
 	<project remote="phpmailer" name="PHPMailer" path="sites/all/libraries/phpmailer"/>
 
 	<!-- themes -->
-	<project name="themes-survey" path="sites/all/themes/survey"/>
+	<project name="themes-survey" revision="test" path="sites/all/themes/survey"/>
 
 	<!-- modules -->
-	<project name="modules-surveydate" path="sites/all/modules/surveydate"/>
+	<project name="modules-surveydate" revision="test" path="sites/all/modules/surveydate"/>
 </manifest>
 
