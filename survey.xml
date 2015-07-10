@@ -17,5 +17,8 @@
 
 	<!-- modules -->
 	<project name="modules-surveydate" revision="test" path="sites/all/modules/surveydate"/>
+	
+	<!-- bootstrap_login_modal -->
+	<project name="bootstrap_login_modal" revision="test" path="sites/all/modules/bootstrap_login_modal"/>
 </manifest>
 
